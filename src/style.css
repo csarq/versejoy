@@ -1,5 +1,6 @@
 body {
-  background-color: aquamarine;
+  font-family: 'Lato', sans-serif;
+
 }
 
 .container {
@@ -10,6 +11,31 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.05);
   border-radius: 1.25rem;
   box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.12), 0 8px 15px -8px rgba(0, 0, 0, 0.08);
+}
+
+.versejoy-button {
+  background-color: #FF8C69;
+  padding: 16px 32px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 17px;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(255, 140, 105, 0.35);
+}
+
+.versejoy-button:hover {
+  background-color: #FF7256;
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 6px 15px rgba(255, 114, 86, 0.4);
+}
+
+.versejoy-button:active {
+  transform: translateY(0px) scale(1);
+  box-shadow: 0 2px 8px rgba(255, 140, 105, 0.3);
 }
 
 .modal-overlay {
