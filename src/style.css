@@ -96,7 +96,7 @@ header {
   border: 1.5px dashed #FFDAB9;
   border-radius: 16px;
   transition: opacity 0.5s ease-in-out, border-color 0.3s ease;
-  opacity: 1;
+  opacity: 0;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
 }
 
