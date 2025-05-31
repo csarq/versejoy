@@ -36,7 +36,7 @@ function copyText(event) {
   event.preventDefault();
   const copyTextElement = document
     .querySelector("#poem-text")
-    .textContent.replace(/,/gi, ", ");
+    .textContent.replace(/,([A-Z])/g, ", $1");
   navigator.clipboard.writeText(copyTextElement);
   event.target.innerHTML = "Copied! 🎉";
   event.target.classList.add("copied");
