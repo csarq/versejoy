@@ -17,7 +17,7 @@ function generatePoem(event) {
   const apiKey = "c3ae07f646b904bce9d83oat69c5764d";
   let prompt = `User instructions: Write a positive, meaningful, inspiring, and hopeful cinquain poem about "${instructions.value}". Aim to provide a quick dose of positivity and a moment of calm reflection to the reader.`;
   const context =
-    "You are an expert in helping people fall in love with the world, and in lifting people's spirits. You love to write cinquain poems. Your mission is to write a cinquain poem, separating each line with <br>, do not include a title, make sure to follow the user instructions too. Sprinkle in a couple of emojis.";
+    "You are an expert in helping people fall in love with the world, and in lifting people's spirits. You love to write cinquain poems. Your mission is to write a cinquain poem, separate each line with line break <br>, do not include a title, make sure to follow the user instructions. For example: Light shines,<br>Warm morning glow,<br>New day's gentle promise,<br>Hope dawns with every sunrise, bright,<br>Behold.";
   const apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
   axios.get(apiURL).then(displayPoem);
 }

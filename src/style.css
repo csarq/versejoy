@@ -163,25 +163,3 @@ a:hover {
   color: #888888;
   text-align: center;
 }
-
-.about {
-  margin-top: 12px;
-  font-weight: 600;
-  color: #FF8C69;
-  background: none;
-  border: none;
-  cursor: pointer;
-  text-decoration: underline;
-  text-decoration-color: rgba(255, 140, 105, 0.5);
-  text-underline-offset: 2px;
-  transition: color 0.3s ease, text-decoration-color 0.3s ease;
-}
-
-.about:hover {
-  color: #FF7256;
-  text-decoration-color: rgba(255, 114, 86, 0.8);
-}
-
-.modal-overlay {
-  visibility: hidden;
-}
