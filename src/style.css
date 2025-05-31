@@ -104,6 +104,10 @@ header {
   opacity: 1;
 }
 
+.hidden {
+  display: none;
+}
+
 .versejoy-poem-text {
   font-size: 18px;
   line-height: 2;

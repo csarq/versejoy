@@ -1,5 +1,6 @@
 function displayPoem(response) {
   const poemAreaElement = document.querySelector("#poem-area");
+  poemAreaElement.classList.remove("hidden");
   poemAreaElement.classList.add("visible");
 
   new Typewriter("#poem-text", {
