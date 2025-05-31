@@ -10,6 +10,7 @@
     href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Nunito+Sans:wght@300;400;600;700;800&display=swap"
     rel="stylesheet">
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
   <link rel="stylesheet" href="src/style.css">
   <title>VerseJoy</title>
 </head>
@@ -22,7 +23,7 @@
     </header>
 
     <form id="poem-form">
-      <input type="text" placeholder="Enter a topic meaningful to you" class="versejoy-input">
+      <input type="text" placeholder="Enter a topic meaningful to you" class="versejoy-input" id="instruction">
       <input type="submit" value="✨ Compose VerseJoy" class="versejoy-button" id="versejoy-button">
     </form>
     <div class="poem-area" id="poem-area">
